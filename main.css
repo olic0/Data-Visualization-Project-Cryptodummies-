@@ -1,0 +1,76 @@
+h1, p {
+  font-family: verdana, serif;
+  color : #AEB7B3
+}
+
+select {
+  border-color: #AEB7B3;
+  border-width: 2px;
+}
+
+button {
+  background-color : #1C2826;
+  font-family: verdana, serif;
+  font-size: 11px;
+  height: 30px;
+  text-align: left;
+  color : #AEB7B3;
+  border : 1px solid #AEB7B3;
+}
+
+button:hover{
+  color: #FFC857;
+  background: #5A7D7C;
+}
+.bar--positive {
+  fill: #008000;
+}
+
+.bar--negative {
+  fill: #b30000;
+}
+
+.axis text {
+  font: 10px sans-serif;
+  stroke : #AEB7B3;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #AEB7B3;
+  shape-rendering: crispEdges;
+}
+
+#visualize {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+#list_crypto {
+  display:flex;
+  flex-direction:column;
+  width : 15%;
+}
+
+#graph{
+  display:flex;
+  flex-direction:column;
+  width: 85%;
+}
+
+.area {
+  fill: steelblue;
+  clip-path: url(#clip);
+}
+
+.zoom {
+  cursor: move;
+  pointer-events: all;
+}
+.selection {
+  fill:  #AEB7B3;
+  fill-opacity: 0.8;
+  stroke : none;
+}

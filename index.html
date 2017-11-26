@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Cryptodummies</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="//d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body bgcolor = "#1C2826" >
+  <h1>Data Vis project</h1>
+  <p>We will try to visualize in a new way the crypto currencies.</p>
+
+  <div id="visualize">
+    <div id="list_crypto">
+      <button type="button" name="BTC" onclick="toggleBTC()">Bitcoin (BTC)</button>
+      <button type="button" name="ETH">Ethereum (ETH)</button>
+      <button type="button" name="NEO">Neo (NEO)</button>
+      <button type="button" name="XRP">Ripple (XRP)</button>
+      <button type="button" name="BCH">Bitcoin Cash (BCH)</button>
+      <button type="button" name="DASH">Dash (DASH)</button>
+      <button type="button" name="BCC">Bitconnect (BCC)</button>
+      <button type="button" name="ETC">Ethereum Classic (ETC)</button>
+      <button type="button" name="MIOTA">Iota (MIOTA)</button>
+      <button type="button" name="LTC">Litecoin (LTC)</button>
+      <button type="button" name="XMR">Monero (XMR)</button>
+      <button type="button" name="XEM">Nem (XEM)</button>
+      <button type="button" name="NMR">Numeraire (NMR)</button>
+      <button type="button" name="STRAT">Stratis (STRAT)</button>
+      <button type="button" name="WAVES">Waves (WAVES)</button>
+    </div>
+    <div id="graph">
+      <svg width="960" height="500"></svg>
+    </div>
+  </div>
+  <script type="text/javascript" src="crypto.js"></script>
+</body>
